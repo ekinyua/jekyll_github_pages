@@ -16,3 +16,5 @@ Explore the fascinating world of chess through strategic insights, game analyses
     <small>Posted on {{ post.date | date: "%B %d, %Y" }}</small>
   </article>
 {% endfor %}
+
+<a href="{{ '/archive/' | relative_url }}">View All Posts</a>
