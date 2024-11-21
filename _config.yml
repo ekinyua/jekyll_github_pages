@@ -1,0 +1,30 @@
+# Site settings
+title: Chess Grandmaster Blog
+email: your-email@example.com
+description: >-
+  A blog exploring chess strategy, history, and personal growth through the lens of chess.
+baseurl: ""
+url: ""
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Include pages directory
+include:
+  - _pages
+
+# Permalink structure for blog posts
+permalink: /blog/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
