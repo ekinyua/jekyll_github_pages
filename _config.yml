@@ -3,8 +3,8 @@ title: Chess Grandmaster Blog
 email: your-email@example.com
 description: >-
   A blog exploring chess strategy, history, and personal growth through the lens of chess.
-baseurl: ""
-url: ""
+baseurl: "/jekyll_github_pages" # This should match the repository name
+url: "https://ekinyua.github.io" # This should be the base URL without the repository name
 
 # Build settings
 theme: minima
