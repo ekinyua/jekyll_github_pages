@@ -7,8 +7,5 @@ permalink: /archive/
 # Chess Blog Archive
 
 {% for post in site.posts %}
-  <article>
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <p>{{ post.date | date: "%B %d, %Y" }}</p>
-  </article>
+  <p>{{ post.title }} | {{ post.date }} | {{ post.url }}</p>
 {% endfor %}
